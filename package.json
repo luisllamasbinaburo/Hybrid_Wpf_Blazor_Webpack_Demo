@@ -1,0 +1,19 @@
+{
+  "name": "miapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack ./src/main.js --output-path ./wwwroot/js --output-filename main.min.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "igniteui-webcomponents-core": "^4.7.2",
+    "igniteui-webcomponents-gauges": "^4.7.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
